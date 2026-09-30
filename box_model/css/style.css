@@ -1,0 +1,95 @@
+/* first, let's follow best practices and cancel out default margins with the universal selector */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Space Grotesk';
+}
+
+/* now we can control our margins ourselves, so lets give the body a 50px margin on the left and right; and a 25px margin on the top and bottom.
+
+can you write it in shorthand?*/
+
+body {
+   margin: 25px 50px;
+   background-color: white;
+   color: green;
+   border-color: blue;
+   border-style: solid;
+   border-width: 1px;
+   padding: 8px;
+}
+
+/* Find a custom font on Google Fonts and add it to the HTML head and your CSS: make sure you add the links and the font-family */
+
+/* Style the h1:
+   10px margin on the bottom
+   10px padding on the top and bottom
+   15px padding on the right and left
+   and a solid black border that is 1px thick
+   center the text and make it uppercase in CSS (do not retype it as uppercase in your HTML)
+   add a background color with 50% opacity
+*/
+h1 {
+   margin-bottom: 10px;
+   padding: 10px 15px;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: rgba(90, 90, 234, 0.5);
+   
+}
+
+h2 {
+   margin-top: 2.5%;
+   margin-bottom: 2.55%;
+   background-color: yellow;
+   color: black;
+   padding: 8px 10px 16px 4px;
+   border-color: black;
+   border-width: 4px;
+   border-style: dotted;
+}
+
+p {
+   background-color: blue;
+   color: white;
+   border-color: black;
+   border-style: solid;
+   border-width: 1px;
+   padding: 16px;
+}
+
+blockTo {
+   display: inline;
+
+}
+
+li {
+   background-color: green;
+   color: white;
+   border-width: 1px;
+   border-color: red;
+   border-style: solid;
+   padding: 8px;
+   text-decoration: none;
+
+}
+
+a {
+   display: flex;
+   text-decoration: none;
+   background-color: yellow;
+   color: black;
+   font-size: 36px;
+   padding: 8px;
+   border-width: 6px;
+   border-color: black;
+   border-style: solid;
+   
+}
+
+
+
+

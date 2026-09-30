@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Box Model & Display</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Emoji:wght@300..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- add custom font link from google fonts: hint this shoulb be a <link> -->
+
+	</head>
+	<body>
+		<h1>Sebastian Ortega</h1>
+      <nav>
+      <a href="../index.html">home</a>
+      <a href="../about/about.html">about</a>
+      <a href="../inspo/inspo.html">inspo</a>
+      <a href="../hierarchy/hierarchy.html">hierarchy</a>
+      <a href="../checkpoint_one/checkpoint_one.html">checkpoint one</a>
+      <a href="../mid_century_modern_blog/index.html">mid century modern</a>
+      <a href="box_model.html">box model</a>
+     </nav>
+<br>
+<hr>
+<br>
+
+		<h1>Box Model & Display</h1>
+		<p>Every element on the page has its own box, which can be styled using CSS.</p>
+		<p>From the inside out:</p>
+		<ol>
+			<li>content</li>
+			<li>padding</li>
+			<li>border</li>
+			<li>margin</li>
+		</ol>
+
+		<h2>Background</h2>
+		<p>Keep in mind that a <code>background</code> will cover the content and the padding.</p>
+
+		<h2>Follow the directions in the <code>html</code> and in the <code>css</code></h2>
+		<ol>
+			<li>Give every <code>p</code> a blue background, white text, some padding, and a black border.</li>
+			<li>Give every <code>code</code> element a white background, green text, a thin border and some padding.</li>
+		</ol>
+
+		<h2>Keep up the good work</h2>
+		<ol>
+			<li>Give every <code>h2</code> a yellow background, black text, some padding that is different on every side, and a thick dotted border.</li>
+			<li>Give every <code>li</code> a green background, white text, some padding, and a thin red border. Also, remove the numbers and bullet points from the <code>li</code>, do you remember how?</li>
+			<li>Do you see how each element is made up of a box?</li>
+			<li>This is a very important thing to remember when we start to style - even though we may not always see the box, it is <em>ALWAYS</em> there.</li>
+			<li>give every <code>a</code> tag a yellow background with 36px black font and a thick border, and remove the underline</li>
+		</ol>
+
+		<h2>let's look at display now</h2>
+
+			<p class="blockTo">I Want to be inline, my css should read: display:?;</p>
+		<!-- write the correct display in the html and the css -->
+<br>
+			<a href="#">make</a>
+			<a href="#">me</a>
+			<a href="#">stack</a>
+			<a href="#">please</a>
+
+<br>
+<hr>	
+		<h2>
+			Reflection
+		</h2>
+		<p>
+			This project felt slightly challenging only because I was trying to figure out the right css properties to use. 
+			One property in particular was the border-style. I didn't realize I had to set that in order to see a border. 
+			When it came to understanding padding and margins, the easiest way for me to understand how these work is by thinking about the box model.
+			Every element contains padding within it's "box". 
+			At the same time, every element contains margins that exiat outside of their "box". 
+			There is no best practice on when to use which, instead, it's better to think about when it is appropriate to use the correct element.
+			There were definitely some moments when the code broke. 
+			I generally ran into this issue when I would copy and past the nav over to this page.
+			This would happen because the links were related to the home pages paths, which did not make sense for this page. 
+			I hope there is a way to create a global nav component through the main css folder. 
+		</p>
+
+
+	</body>
+</html>
