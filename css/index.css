@@ -52,3 +52,17 @@ nav a:hover {
     border-radius: 8px;
 
 }
+
+.page-wrap {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

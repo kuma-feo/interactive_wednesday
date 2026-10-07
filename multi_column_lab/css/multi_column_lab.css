@@ -1,0 +1,159 @@
+/* styles already given to you: take a look at the @font-face, this is how we add a custom font to our css. the font file is inside the fonts folder within the root folder structure */
+
+@font-face {
+  font-family: fleetwoodMac;
+  src: url("../fonts/fleetwoodMac.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2EBDC;
+  color: #0d0d0d;
+  font-family: 'fleetwoodMac', sans-serif;
+  text-transform: uppercase;
+}
+
+nav {
+    padding: 24px;
+    margin: 1%;
+    background-color: #26241C;
+    border-radius: 8px;
+    
+
+}
+
+nav a {
+    color: #F2F0D8;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 24px;
+    
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: #26241C;
+    border-radius: 8px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-family: 'fleetwoodMac', sans-serif;
+
+}
+
+p {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  max-width: 75ch;
+}
+
+li {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  list-style: none;
+  padding-left: 3%;
+}
+
+#info {
+  font-size: 16px;
+  text-transform: none;
+  margin-bottom: 5px;
+  
+}
+
+header, footer {
+  padding: 3%;
+  border: 2px solid #0D0D0D;
+  background: #0D0D0D;
+  color: #ffffff;
+  margin: 1%;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  border: .5px solid #0D0D0D;
+}
+
+#reflection {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1, 2 & 3 are in the index.html file
+*/
+
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#lyrics {
+  /* background-color: chartreuse; */
+  padding: 3% 3%;
+  width: 50%;
+
+}
+
+#album {
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  padding: 3% 3%;
+  width: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+/* 4. Add display: flex; to flex-container */
+/* 5. Add flex-direction: row; to flex-container; */
+/* 6. Give each column wrapper (flex item) a width in percentages, 
+adjust margin and padding so that it is visually appealing */
+
+/* 
+pro-tip: it is easier to change the background color/border of individual 
+boxes to help clarify what you are working on and to make sure you are 
+targeting the correct html tag */
+
+/* 7. BONUS: look at the heirarchy of the typography and think about the 
+rules in regard to how many times certain tags should be on the page 
+and correct the errors */
+
+
+/* Flex container (hint this is a parent container)*/
+
+
+
+/* Flex item (left column hint-this is a child container) */
+
+
+
+/* Flex item (right column hint-this is a child container) */
+
+
