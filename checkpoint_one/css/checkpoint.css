@@ -13,7 +13,73 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
 
-    color: #26241C;
-    background-color: #F2F0D8;
+    color: #9CA3AF;
+    background-color: #030712;
+    padding: 16px;
+    
 }
 
+header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1F2937;
+	padding: 1%;
+    margin-bottom: 4%;
+    border-radius: 4px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #111827;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p {
+    max-width: 65ch;
+    
+}
+
+nav {
+    padding: 8px;
+    
+
+}
+
+nav a {
+    color: #9CA3AF;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 10px;
+    
+}
+
+nav a:hover {
+    color: #D1D5DB;
+    border-radius: 8px;
+
+}
+
+#seb-logo{
+    max-width: 64px;
+}
+
+/* Reclection section */
+
+#reflection {
+    padding: 8px;
+    background-color: #111827;
+    border-radius: 3px;
+}
