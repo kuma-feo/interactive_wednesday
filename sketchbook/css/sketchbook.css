@@ -11,9 +11,84 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 
+ /* Try to add an ascii butterfly here */
+
 body {
 
-    color: #26241C;
-    background-color: #F2F0D8;
+    color: #9CA3AF;
+    background-color: #030712;
+    padding: 16px;
+    
 }
 
+.sketch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:normal;
+    background-color: #1F2937;
+    color: #9CA3AF;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 16px;
+}
+
+.sketch:hover {
+    background-color: #111827;
+}
+
+/* .container {
+    padding: 16px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1F2937;
+	padding: 1%;
+    margin-bottom: 4%;
+    border-radius: 4px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #111827;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #191c23;
+}
+
+p {
+    max-width: 65ch;
+    
+}
+
+/* Reclection section */
+
+#reflection {
+    padding: 8px;
+    background-color: #111827;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
