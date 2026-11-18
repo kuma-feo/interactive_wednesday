@@ -10,9 +10,14 @@
     text-decoration: none;
     text-transform: capitalize;
     padding: 16px;
+
+    transition: 
+        color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .sketch:hover {
     background-color: #111827;
+    color: #D1D5DB;
+    transform: translateY(-2px);
 }
 
